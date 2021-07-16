@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+
+
+}
+h1{
+    color: gold;
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    color: gold;
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+}
+h3{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+}
+
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  background: #f1f1f1;
+}
+
+button {
+  background-color: gold;
+  color:black;
+  font-size: 25px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.hero::after {
+  content: "";
+  clear: both;
+  display: table;
+}
